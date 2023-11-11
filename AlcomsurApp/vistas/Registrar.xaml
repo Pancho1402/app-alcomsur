@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlcomsurApp.vistas.Registrar"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout  BackgroundColor="#fff">
+        <StackLayout Orientation="Vertical"
+                     HorizontalOptions="Center"
+                     WidthRequest="232"
+                     Margin="0,70,0,0">
+            <Button  Text="Entrada"
+                     x:Name="btnEntrada"
+                     Clicked="btnEntrada_Clicked"
+                     Padding="15"
+                     TextTransform="None"
+                     CornerRadius="15"
+                     FontSize="32"
+                     FontAttributes="Bold"
+                     BackgroundColor="#808AE8"
+                     Margin="0,10"
+                     HeightRequest="72"></Button>
+            <Button Text="Salida"
+                    x:Name="btnSalida"
+                    Clicked="btnSalida_Clicked"
+                    Padding="15"
+                    TextTransform="None"
+                    CornerRadius="15"
+                    FontSize="32"
+                    FontAttributes="Bold"
+                    BackgroundColor="#808AE8"
+                    Margin="0,10"
+                    HeightRequest="72"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     Margin="0,80,0,0">
+            <Button Text="Enviar"
+                    x:Name="btnEnviar"
+                    Clicked="btnEnviar_Clicked"
+                    Padding="15"
+                    TextTransform="None"
+                    CornerRadius="500"
+                    FontSize="52"
+                    FontAttributes="Bold"
+                    BackgroundColor="#808AE8"
+                    Margin="0,10"
+                    WidthRequest="230"
+                    HeightRequest="230"
+                    IsEnabled="{Binding Conectado}"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

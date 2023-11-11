@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="AlcomsurApp.vistas.TabbedPage1"
+            xmlns:local="clr-namespace:AlcomsurApp.vistas"
+            BarBackgroundColor="#F8F5F5"
+            SelectedTabColor="#0A1AAA"
+            UnselectedTabColor="Black"
+            xmlns:Android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            Android:TabbedPage.ToolbarPlacement="Bottom">
+    
+    <local:Registrar Title="Registrar"></local:Registrar>
+    <local:Reportar Title="Reportar"></local:Reportar>
+</TabbedPage>

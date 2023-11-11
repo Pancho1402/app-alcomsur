@@ -1,0 +1,17 @@
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\bin\Debug\netstandard2.0\AlcomsurApp.deps.json
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\bin\Debug\netstandard2.0\AlcomsurApp.dll
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\bin\Debug\netstandard2.0\ref\AlcomsurApp.dll
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\bin\Debug\netstandard2.0\AlcomsurApp.pdb
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\AlcomsurApp.csproj.AssemblyReference.cache
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\AlcomsurApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\vistas\Registrar.xaml.g.cs
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\vistas\Reportar.xaml.g.cs
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\vistas\TabbedPage1.xaml.g.cs
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\AlcomsurApp.AssemblyInfoInputs.cache
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\AlcomsurApp.AssemblyInfo.cs
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\AlcomsurApp.csproj.CoreCompileInputs.cache
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\AlcomsurApp.dll
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\refint\AlcomsurApp.dll
+C:\Users\Pancho\source\repos\WinForms\AlcomsurApp\AlcomsurApp\obj\Debug\netstandard2.0\AlcomsurApp.pdb

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlcomsurApp.vistas.Reportar"
+             xmlns:px="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AlcomsurApp.modelo"
+             NavigationPage.HasNavigationBar="False">
+    <Grid BackgroundColor="#fff">
+        <StackLayout  IsVisible="{Binding Conectado}">
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         Margin="0,10,0,0">
+                <Image Source="logo.jpg"
+                       WidthRequest="270"></Image>
+            </StackLayout>
+            <StackLayout Orientation="Vertical"
+                         HorizontalOptions="Center"
+                         WidthRequest="272"
+                         Margin="0,30,0,0">
+                <StackLayout BackgroundColor="#C7C4C4"
+                             Margin="0,10,0,5">
+                    <Picker x:Name="cboEmpresa"
+                            Title="Selecciona una empresa"
+                            SelectedIndexChanged="cboEmpresa_SelectedIndexChanged">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type local:Mempresa}">
+                                <local:Mempresa id="2"
+                                                nombre="SEFOMEC 1" />
+                                <local:Mempresa id="3"
+                                                nombre="SEFOMEC 2"/>
+                                <local:Mempresa id="4"
+                                                nombre="SEFOMEC 3" />
+                                <local:Mempresa id="5"
+                                                nombre="SEFOMEC 4" />
+                                <local:Mempresa id="6"
+                                                nombre="SEFOMEC 5" />
+                                <local:Mempresa id="7"
+                                                nombre="SEFOMEC 6" />
+                                <local:Mempresa id="8"
+                                                nombre="SEFOMEC 7" />
+                                <local:Mempresa id="9"
+                                                nombre="SEFOMEC 8" />
+                                <local:Mempresa id="10"
+                                                nombre="SEFOMEC 9" />
+                                <local:Mempresa id="11"
+                                                nombre="SEFOMEC 10" />
+                                <local:Mempresa id="12"
+                                                nombre="SEFOMEC 11" />
+                                <local:Mempresa id="13"
+                                                nombre="SEFOMEC 12"/>
+                                <local:Mempresa id="14"
+                                                nombre="SEFOMEC 13" />
+                                <local:Mempresa id="15"
+                                                nombre="SEFOMEC 14"/>
+                                <local:Mempresa id="16"
+                                                nombre="SEFOMEC 15" />
+                                <local:Mempresa id="17"
+                                                nombre="SEFOMEC 16"/>
+                                <local:Mempresa id="18"
+                                                nombre="SEFOMEC 17"/>
+                                <local:Mempresa id="19"
+                                                nombre="SEFOMEC 18"/>
+                                <local:Mempresa id="20"
+                                                nombre="SEFOMEC 19"/>
+                                <local:Mempresa id="21"
+                                                nombre="SEFOMEC 20"/>
+                                <local:Mempresa id="22"
+                                                nombre="SEFOMEC 21"/>
+                                <local:Mempresa id="23"
+                                                nombre="SEFOMEC 22"/>
+                                <local:Mempresa id="24"
+                                                nombre="SEFOMEC 23"/>
+                                <local:Mempresa id="25"
+                                                nombre="SEFOMEC 24"/>
+                                <local:Mempresa id="26"
+                                                nombre="SEFOMEC 25"/>
+                                <local:Mempresa id="27"
+                                                nombre="SEFOMEC 26"/>
+                                <local:Mempresa id="28"
+                                                nombre="SEFOMEC 27"/>
+                                <local:Mempresa id="29"
+                                                nombre="SEFOMEC 28"/>
+                                <local:Mempresa id="30"
+                                                nombre="SEFOMEC 29"/>
+                                <local:Mempresa id="31"
+                                                nombre="SEFOMEC 30"/>
+                                <local:Mempresa id="32"
+                                                nombre="SEFOMEC 31"/>
+                                <local:Mempresa id="33"
+                                                nombre="SEFOMEC 32"/>
+                                <local:Mempresa id="34"
+                                                nombre="SEFOMEC 33"/>
+                                <local:Mempresa id="35"
+                                                nombre="SEFOMEC 34"/>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                        <Picker.ItemDisplayBinding>
+                            <Binding Path="nombre" />
+                        </Picker.ItemDisplayBinding>
+                    </Picker>
+                </StackLayout>
+                <StackLayout BackgroundColor="#C7C4C4"
+                             Margin="0,10,0,20">
+                    <Entry x:Name="txtDescripcion" Placeholder="Ingresar Descripcion" TextColor="Black"></Entry>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center">
+                <Button Text="Reportar"
+                        x:Name="btnReportar"
+                        TextColor="#fff"
+                        BackgroundColor="#808AE8"
+                        TextTransform="None"
+                        CornerRadius="10"
+                        FontSize="22"
+                        Clicked="btnReportar_Clicked"
+                        ></Button>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout IsVisible="{Binding SinConexion}"
+                     BackgroundColor="#fff"
+                     VerticalOptions="Center"
+                     x:Name="stlSinConexion">
+            
+        </StackLayout>
+    </Grid>
+</ContentPage>
